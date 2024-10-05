@@ -1,0 +1,22 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6200ee;
+}
+
+.btnLogin {
+  background-color: transparent;
+  color: #333;
+  margin-right: 10px;
+}
+
+.btnSignup {
+  background-color: #6200ee;
+  color: #fff;
+}

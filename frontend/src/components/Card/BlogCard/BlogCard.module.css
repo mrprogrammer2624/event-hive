@@ -1,0 +1,27 @@
+.blogCard {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+}
+
+.blogCard:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.blogCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blogInfo {
+  padding: 20px;
+}
+
+.blogMeta {
+  color: #666;
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-md);
+}

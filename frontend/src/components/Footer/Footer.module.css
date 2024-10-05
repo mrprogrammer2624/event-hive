@@ -1,0 +1,58 @@
+.footer {
+  padding: 6rem 0 var(--space-xl);
+}
+
+.footerContent {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.footerSection h3,
+.footerSection h4 {
+  margin-bottom: 20px;
+}
+
+.footerSection ul {
+  list-style-type: none;
+}
+
+.footerSection ul li {
+  margin-bottom: 10px;
+}
+
+.footerSection ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socialIcons a:hover,
+.footerSection ul li a:hover {
+  color: var(--clr-gray);
+  text-decoration: none;
+}
+
+.subscribe {
+  margin-top: 20px;
+  gap: var(--space-xs);
+}
+
+.subscribe input {
+  width: 200px;
+}
+
+.btnSubscribe {
+  height: 5.6rem;
+}
+
+.footerBottom {
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.socialIcons a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
